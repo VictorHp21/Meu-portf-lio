@@ -1,7 +1,7 @@
 
 function baixarCV() {
   const link = document.createElement("a");
-  link.href = "../arquivos/Curriculo Victor_.pdf"; 
+  link.href = "arquivos/Curriculo_Victor_.pdf"; 
   link.download = "Curriculo_VictorHenrique.pdf";
   link.click();
 }
